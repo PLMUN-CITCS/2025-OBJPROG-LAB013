@@ -146,7 +146,7 @@ Only perform this if this is the first time you will setup your Git Environment
          - int roomHeight = 15;
       ```Java
       public class ParametersAndArguments {
-          public static void main(String args) {
+          public static void main(String[] args) {
               int roomWidth = 10;
               int roomHeight = 15;
           }
@@ -158,7 +158,7 @@ Only perform this if this is the first time you will setup your Git Environment
       - In main, add this line: int area = calculateArea(roomWidth, roomHeight);
       ```Java
       public class ParametersAndArguments {
-          public static void main(String args) {
+          public static void main(String[] args) {
               //... (variable declarations)...
               int area = calculateArea(roomWidth, roomHeight);
           }
@@ -170,7 +170,7 @@ Only perform this if this is the first time you will setup your Git Environment
       - In main, add this line: System.out.println("The calculated area is: " + area);
       ```Java
       public class ParametersAndArguments {
-          public static void main(String args) {
+          public static void main(String[] args) {
               //... (other code in main)...
               System.out.println("The calculated area is: " + area);
           }
